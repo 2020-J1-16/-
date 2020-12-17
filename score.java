@@ -2,6 +2,8 @@ import java.awt.*;
 import javax.swing.*;
 //import java.awt.event.*;
 
+//デフォルトのscoreしか表示しない状態のFrame
+//敵がいなくなったときのプログラムと結びつける必要あり
 class score extends JFrame {
     private int score = 0;
     public static void main(String argv[]){
