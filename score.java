@@ -4,7 +4,7 @@ import java.awt.event.*;
 
 //scoreとlevelを表示するプログラム
 //弾が発射されたとき常に弾に当たったかどうかをチェックし、当たっていたらscoreup(scoreが1000超えるごとにplayerlevelup)
-//弾に当たっていたら同時に弾と敵を消す(未完成)
+//弾に当たっていたら同時に弾と敵を消す
 
 class score extends JFrame {
     private int score = 0;
