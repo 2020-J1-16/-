@@ -100,7 +100,7 @@ class Shoot_new3 extends JFrame implements KeyListener,ActionListener
         }else{
             I04=-1;
         }
-        timer=new Timer(50,this);
+        timer=new Timer(25,this);
         timer.start();
         
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
